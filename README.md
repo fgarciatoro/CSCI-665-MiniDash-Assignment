@@ -18,7 +18,6 @@ python -m uvicorn main:app --reload
 ```
 
 API endpoints:
-
 - `GET /restaurants`
 - `GET /restaurants/{id}/menu`
 - `POST /orders`
@@ -32,7 +31,6 @@ pytest
 ```
 
 ## Data model
-
 SQLite tables:
 
 - `restaurants (id, name, cuisine, opens_at, closes_at, avg_prep_minutes)`
