@@ -25,7 +25,6 @@ Template from Appendix B:
 | What I verified                  | Folder structure and accuracy of files |
 | What I changed and why           | Minor formatting edits to some files. Largely accepted as is.|
 | Outcome                          | Accepted. Committed as "Baseline: Merge pull request #1|
-#1.|
 
 | Field                            | My entry |
 |------------                      |-----|
