@@ -1,16 +1,13 @@
 # MiniDash
-
 MiniDash is a small food-delivery REST API built with FastAPI and SQLite.
 
 ## Requirements
-
 - Python 3.10+
 - `fastapi`
 - `uvicorn`
 - `pytest`
 
 ## Run the API
-
 From the repository root:
 
 ```bash
@@ -25,7 +22,6 @@ API endpoints:
 - `PATCH /orders/{id}/status`
 
 ## Run tests
-
 ```bash
 pytest
 ```
