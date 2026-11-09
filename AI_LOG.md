@@ -23,8 +23,9 @@ Template from Appendix B:
 | Prompt (verbatim or summarized)  | Create a small food-delivery REST API called MiniDash in Python with FastAPI and SQLite. Tables: restaurants (id, name, cuisine, opens_at, closes_at, avg_prep_minutes), menu_items (id, restaurant_id, name, price_cents), orders (id, restaurant_id, status, total_cents, address, created_at) and order_items. Endpoints: GET /restaurants, GET /restaurants/{id}/menu, POST /orders, GET /orders/{id}, PATCH /orders/{id}/status. Use a layered structure (routes, services, repository). Seed 5 restaurants. Add pytest tests for each endpoint and a README with run instructions. Do not add authentication or any dependency beyond fastapi, uvicorn, and pytest. (From Appendix C)|
 | What the AI produced             | Initial repository, README file, and folder structure |
 | What I verified                  | Folder structure and accuracy of files |
-| What I changed and why           | Nothing. Accepted as is.|
-| Outcome                          | Accepted. Committed as “Initial Plan”.|
+| What I changed and why           | Minor formatting edits to some files. Largely accepted as is.|
+| Outcome                          | Accepted. Committed as "Baseline: Merge pull request #1|
+#1.|
 
 | Field                            | My entry |
 |------------                      |-----|
